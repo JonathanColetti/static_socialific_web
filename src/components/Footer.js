@@ -17,7 +17,7 @@ export default function Footer() {
 
                 </div>
                 <div className='footer-col' id='col-four'>
-                    <p>This is placeholder data</p>
+                    <p>Coming Soon</p>
                 </div>
 
             </div>
