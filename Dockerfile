@@ -6,7 +6,7 @@ ENV PATH /app/node_modules/.bin:$PATH
 
 COPY package*.json ./
 
-CMD ["npm", "install"]
+RUN npm install
 
 COPY . ./
 EXPOSE 3000
