@@ -10,7 +10,7 @@ export default function Footer() {
                 </div>
                 <div className='footer-col' id='col-two'>
                     <p>email=colettijonathan03@gmail.com</p>
-
+                    <p>copyright 2022</p>
                 </div>
                 <div className='footer-col' id='col-three'>
                     <p>This website is made with tailwind bootstrap and react</p>
