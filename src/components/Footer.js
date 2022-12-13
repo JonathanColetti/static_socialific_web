@@ -9,7 +9,7 @@ export default function Footer() {
 
                 </div>
                 <div className='footer-col' id='col-two'>
-                    <p>my email is colettijonathan03@gmail.com</p>
+                    <p>email=colettijonathan03@gmail.com</p>
 
                 </div>
                 <div className='footer-col' id='col-three'>
