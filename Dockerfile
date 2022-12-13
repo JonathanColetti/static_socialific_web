@@ -1,16 +1,12 @@
-FROM node:alpine
+FROM node:13.12.0-alpine
 
-# Could be troublesome
 WORKDIR /app
 
 ENV PATH /app/node_modules/.bin:$PATH
 
-COPY package.json ./
+COPY package*.json ./
 
 RUN npm install
-
-COPY . ./
-
 
 CMD ["npm", "start"]
 EXPOSE 3000
