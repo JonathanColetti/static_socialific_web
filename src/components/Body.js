@@ -7,10 +7,10 @@ export default function Body() {
             <button class="px-5 py-2 text-indigo-700 transition-all duration-300 ease-in-out bg-white border-2 border-b-4 border-r-4 border-indigo-800 rounded-lg hover:text-indigo-100 hover:bg-indigo-700 hover:border-b-2 hover:border-r-2">
                 Use on web
             </button>
-            <button class="px-5 py-2 text-gray-700 transition-all duration-300 ease-in-out bg-white border-2 border-b-4 border-r-4 border-gray-800 rounded-lg hover:text-gray-100 hover:bg-gray-700 hover:border-b-2 hover:border-r-2">
+            <button class="px-5 py-2 text-gray-700 transition-all duration-300 ease-in-out bg-white border-2 border-b-4 border-r-4 border-gray-800 rounded-lg hover:text-gray-100 hover:bg-gray-600 hover:border-b-2 hover:border-r-2">
                 Download for apple
             </button>
-            <button class="px-5 py-2 text-green-700 transition-all duration-300 ease-in-out bg-white border-2 border-b-4 border-r-4 border-green-800 rounded-lg hover:text-green-100 hover:bg-gray-700 hover:border-b-2 hover:border-r-2">
+            <button class="px-5 py-2 text-green-700 transition-all duration-300 ease-in-out bg-white border-2 border-b-4 border-r-4 border-green-800 rounded-lg hover:text-green-100 hover:bg-green-600 hover:border-b-2 hover:border-r-2">
                 Download for andriod
             </button>
         </div >
