@@ -2,17 +2,37 @@ import React from 'react'
 
 export default function Body() {
     return (
-        <div id='inner-textbx' className= 'mx-auto bg-gray-200 w-100 rounded-xl shadow border p-8 m-10 ' >
-            <h1 class="font-medium leading-tight text-5xl mt-0 mb-2 text-indigo-800">Socialific</h1>
-            <button class="px-5 py-2 text-indigo-700 transition-all duration-300 ease-in-out bg-white border-2 border-b-4 border-r-4 border-indigo-800 rounded-lg hover:text-indigo-100 hover:bg-indigo-700 hover:border-b-2 hover:border-r-2">
-                Use on web
-            </button>
-            <button class="px-5 py-2 text-gray-700 transition-all duration-300 ease-in-out bg-white border-2 border-b-4 border-r-4 border-gray-800 rounded-lg hover:text-gray-100 hover:bg-gray-600 hover:border-b-2 hover:border-r-2">
-                Download for apple
-            </button>
-            <button class="px-5 py-2 text-green-700 transition-all duration-300 ease-in-out bg-white border-2 border-b-4 border-r-4 border-green-800 rounded-lg hover:text-green-100 hover:bg-green-600 hover:border-b-2 hover:border-r-2">
-                Download for andriod
-            </button>
-        </div >
+       <>
+        <h1 className='font-medium mb-20 leading-tight text-5xl mt-0 text-indigo-800 text-center'><span className='highlight'>Be you</span> </h1>
+        <div className='w-screen flex items-center  '>
+            <div className='ml-auto mr-auto flex flex-wrap items-start'>
+                <div className='card'>
+                    <img className='card-ct' src=""
+        alt="app display"/>
+                    <p className='font-medium text-center text-xl'>Customize your profile</p>
+                </div>
+                <div className='card'>
+                    <img className='card-ct' src=""
+        alt="app display"/>
+                    <p className='font-medium text-center text-xl'>Earn coins</p>
+                </div>
+                <div className='card'>
+                    <img className='card-ct' src=""
+        alt="app display"/>
+                    <p className='font-medium text-center text-xl'>Customize your profile</p>
+                </div>
+            </div>
+        </div>
+        <div className='jagged-bottom mt-10'></div>
+        <div className='mt-15 bg-white '>
+            <br></br>
+
+            <div className='text-right mr-60'>
+                <h1 className='font-medium mb-20 leading-tight text-5xl mt-0 text-indigo-800'>Customize</h1>
+                <p>Cool text box</p>
+            </div>
+           
+        </div>
+       </>
     )
 }

@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <>
-      <div style={{ width: '100%', height: '100%', padding: '11%' }} className="App  bg-indigo-400 selection:bg-yellow-200">
+      <div className="App  bg-indigo-400 selection:bg-yellow-200 ">
         <TopBar />
         <Body />
         <Footer />
